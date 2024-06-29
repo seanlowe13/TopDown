@@ -87,6 +87,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.35882, 0.5, -1.8192)
 mesh = SubResource("CapsuleMesh_3i5gh")
 skeleton = NodePath("../Player")
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 [node name="Test Body4" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.63671, 0.5, -1.8192)
@@ -95,3 +96,10 @@ mesh = SubResource("CapsuleMesh_3i5gh")
 skeleton = NodePath("../Player")
 =======
 >>>>>>> 3b815e7ad703058c1f048a94d4a384d3a217f541
+=======
+
+[node name="Test Body4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56907, 0.5, -1.8192)
+mesh = SubResource("CapsuleMesh_3i5gh")
+skeleton = NodePath("../Player")
+>>>>>>> a2a51e7f42b12f86fd38c9c14a13358af9cadbd2
